@@ -1,0 +1,71 @@
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #000;
+    
+}
+p{  
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #000;
+    margin: 40px;
+}
+body{
+    margin: 50px;
+    text-align: center;
+    background-color: #67f1f9;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-business-simple-exhibition-board-jobs-image_22339.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+button{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#fff;
+    padding: 20px;
+    background-color: #000;
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: right;
+    margin: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+  
+
+  
+li a {
+    font-family: sans-serif;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  li a:hover:not(.active) {
+   background-color: rgb(169, 206, 217);
+  }
+  .active {
+    background-color: rgb(77,195,231);
+  }
